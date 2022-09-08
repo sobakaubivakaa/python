@@ -1,0 +1,5 @@
+x = int(input("Enter x"))
+y = int(input("Enter y"))
+z = int(input("Enter z"))
+res = 2*3*4/(pow(math.sin(x),3) + pow(math.tan(y),3))-math.sqrt(math.pow(z,x-y))
+print(res)

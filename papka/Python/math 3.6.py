@@ -1,0 +1,5 @@
+x = int(input("Enter x"))
+y = int(input("Enter y"))
+z = int(input("Enter z"))
+res = (4 * math.fabs(x)-x*y*math.pow(z,2))/(x+math.exp(y*x) - 2*y*z)
+print(res)

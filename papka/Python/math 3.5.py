@@ -1,0 +1,5 @@
+x = int(input("Enter x"))
+y = int(input("Enter y"))
+z = int(input("Enter z"))
+res = math.pow(4,x*y) - math.pow(x,y*z) + math.pow((x*y),z)
+print(res)
